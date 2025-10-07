@@ -1,3 +1,8 @@
+/*
+    Copyright (c) 2025 - Matt C
+    All rights reserved.
+*/
+
 #pragma once
 extern const int g_consoleLines;
 extern const int g_scrambleFactor;
