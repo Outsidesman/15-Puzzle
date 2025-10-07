@@ -1,5 +1,5 @@
 # 15-Puzzle
-The classic tile sliding game, re-written C++!
+The classic tile sliding game, written C++
 
 To build and run:
 $ make run
