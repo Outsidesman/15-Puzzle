@@ -1,3 +1,8 @@
+/*
+    Copyright (c) 2025 - Matt C
+    All rights reserved.
+*/
+
 #include <iostream>
 #include "board.h"
 #include "utils.h"
