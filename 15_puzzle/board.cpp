@@ -12,11 +12,11 @@
 #include "direction.h"
 
 Board::Board() {
-    constexpr int N{ size * size };
+    constexpr int maxTile{ numRows * numCols };
     int tile{ 1 };
     for (int row{0}; row < numRows; ++row) {
         for (int col{0}; col < numCols; ++col, ++tile) {
-            m_tiles[row][col] = tile % N;
+            m_tiles[row][col] = tile % maxTile;
         }
     }
 }
