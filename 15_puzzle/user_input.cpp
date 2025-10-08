@@ -44,7 +44,6 @@ namespace UserInput{
             if(commandValid(command)){
                 checkIfQuit(command);
 
-                // Call moveTile here
                 board.moveTile(Direction{command});
             }
 
